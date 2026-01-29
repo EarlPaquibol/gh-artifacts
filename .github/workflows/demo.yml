@@ -28,8 +28,8 @@ jobs:
       - name: Get Artifacts
         uses: actions/upload-artifacts@v3
         with:
-          - name: dist-files
-            path: dist
+          name: dist-files
+          path: dist
             # path: |
             #   dist
             #   package.json
